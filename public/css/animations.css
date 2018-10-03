@@ -1,0 +1,13 @@
+.fadeOut{
+  opacity: 1;
+  -webkit-animation: fadeOut 1.1s forwards;
+  animation: fadeOut 1.1s forwards;
+}
+
+@-webkit-keyframes fadeOut {
+    100% { opacity: 0;}
+}
+
+@keyframes fadeOut {
+    100% { opacity: 0;}
+}
